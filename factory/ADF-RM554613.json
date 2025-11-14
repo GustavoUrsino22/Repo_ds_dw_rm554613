@@ -1,0 +1,9 @@
+{
+	"name": "ADF-RM554613",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0bfaf5b1-15e0-46c4-94b0-ef31c70e9d43",
+		"tenantId": "11dbbfe2-89b8-4549-be10-cec364e59551"
+	}
+}
