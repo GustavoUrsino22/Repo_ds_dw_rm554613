@@ -19,11 +19,21 @@
 						"referenceName": "dataflow1",
 						"type": "DataFlowReference",
 						"datasetParameters": {
+							"arquivoorigem": {
+								"arquivo_origem": "pesquisa_trabalho_futuro.csv"
+							},
 							"arquivoorigem2": {
-								"arquivo_origem": "bronze_origem"
+								"arquivo_origem": "trabalho_futuro_caracteristicas.csv"
 							},
 							"destino": {
 								"arquivo_destino": "prata_destino"
+							}
+						},
+						"linkedServiceParameters": {
+							"arquivoorigem": {
+								"schemaLinkedService": {
+									"arquivo_origem": "trabalho_futuro_caracteristicas.csv"
+								}
 							}
 						}
 					},
